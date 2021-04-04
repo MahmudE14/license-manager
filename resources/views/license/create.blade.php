@@ -41,7 +41,7 @@
                         <select class="form-control" name="licensed_for" id="licensed_for" required>
                             <option value="">Select option</option>
                             @foreach ($types as $type)
-                                <option value="{{ $type->id }}">{{ $type->type }}</option>
+                                <option value="{{ $type->type }}">{{ $type->type }}</option>
                             @endforeach
                         </select>
                     </div> &nbsp; months
